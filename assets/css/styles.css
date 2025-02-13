@@ -497,6 +497,26 @@ img {
   justify-content: center;
   gap: 1rem;
 }
+.contact__phone{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact__phone a{
+  font-size: var(--h1-font-size);
+  color: aliceblue;
+}
+.contact__phone a span{
+   color: red;
+   cursor: pointer;
+   transition: 1s;
+}
+.contact__phone a span:hover{
+ color: rebeccapurple;
+}
+
 .contact__form{
   position: relative;
 }
